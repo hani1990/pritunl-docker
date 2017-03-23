@@ -29,7 +29,7 @@ RUN wget https://github.com/pritunl/pritunl/archive/${VERSION}.tar.gz \
 
 ADD rootfs /
 
-EXPOSE 80
+EXPOSE 9700
 EXPOSE 443
 EXPOSE 1194
 ENTRYPOINT ["/init"]
